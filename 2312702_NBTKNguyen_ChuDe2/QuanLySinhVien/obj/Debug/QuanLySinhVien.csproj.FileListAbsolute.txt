@@ -1,0 +1,11 @@
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe.config
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\bin\Debug\QuanLySinhVien.exe
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\bin\Debug\QuanLySinhVien.pdb
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.AssemblyReference.cache
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.frmSinhVien.resources
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.Properties.Resources.resources
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.GenerateResource.cache
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.csproj.CoreCompileInputs.cache
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.pdb
+C:\Users\thieu\OneDrive\ドキュメント\CĐ 2\QuanLySinhVien\obj\Debug\QuanLySinhVien.exe.config

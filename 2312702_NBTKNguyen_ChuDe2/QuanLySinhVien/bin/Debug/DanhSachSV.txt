@@ -1,0 +1,6 @@
+MSSV	Họ và tên	Ngày sinh	Địa chỉ	Lớp	Hình	Giới tính	Chuyên ngành
+SV.00002	Nguyễn Văn A	10/15/2003	Đà Lạt	CTK47	SinhVien1.png	1	Mạng truyền thông,Công nghệ phần mềm
+SV.00010	Nguyễn Thị Hoa	7/20/2002	Hà Nội	CTK47	SinhVien2.png	0	Công nghệ phần mềm,Trí tuệ nhân tạo,Hệ thống thông tin
+SV.00020	Nguyễn Văn Hùng	8/25/2003	Gia Lai	CTK47	SinhVien3.png	1	Mạng truyền thông,Trí tuệ nhân tạo,Hệ thống thông tin
+SV.00018	Lê Thị Anh Thư	11/20/2001	Đà Lạt	CTK47	SinhVien4.png	0	Công nghệ phần mềm,Trí tuệ nhân tạo,Hệ thống thông tin
+SV.00013	Hoàng Lâm Vi	9/20/2003	Bình Định	CTK47	SinhVien5.png	0	Mạng truyền thông,Trí tuệ nhân tạo,Hệ thống thông tin

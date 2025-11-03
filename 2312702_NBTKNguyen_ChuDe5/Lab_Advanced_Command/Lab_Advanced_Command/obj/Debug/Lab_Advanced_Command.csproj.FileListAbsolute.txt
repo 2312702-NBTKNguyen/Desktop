@@ -1,0 +1,12 @@
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.exe
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\bin\Debug\Lab_Advanced_Command.pdb
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.AssemblyReference.cache
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodForm.resources
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.Properties.Resources.resources
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.GenerateResource.cache
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.csproj.CoreCompileInputs.cache
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.pdb
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe5\Lab_Advanced_Command\Lab_Advanced_Command\obj\Debug\Lab_Advanced_Command.FoodInfoForm.resources

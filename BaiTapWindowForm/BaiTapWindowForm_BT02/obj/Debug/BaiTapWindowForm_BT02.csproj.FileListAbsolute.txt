@@ -1,0 +1,14 @@
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\bin\Debug\BaiTapWindowForm_BT02.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\bin\Debug\BaiTapWindowForm_BT02.exe
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\bin\Debug\BaiTapWindowForm_BT02.pdb
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.csproj.AssemblyReference.cache
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.Properties.Resources.resources
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.csproj.GenerateResource.cache
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.csproj.CoreCompileInputs.cache
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.exe
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.pdb
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.frmChinh.resources
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.frmBai1.resources
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.frmBai2.resources
+D:\Assignments\Phát triển ứng dụng desktop\BaiTapWindowForm\BaiTapWindowForm_BT02\obj\Debug\BaiTapWindowForm_BT02.frmBai3.resources

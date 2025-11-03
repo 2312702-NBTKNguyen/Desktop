@@ -1,0 +1,12 @@
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\bin\Debug\TTGiangVien.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\bin\Debug\TTGiangVien.exe
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\bin\Debug\TTGiangVien.pdb
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.csproj.AssemblyReference.cache
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.frmGiangVien.resources
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.frmTBGiangVien.resources
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.Properties.Resources.resources
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.csproj.GenerateResource.cache
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.csproj.CoreCompileInputs.cache
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.exe
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.pdb
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\TTGiangVien\TTGiangVien\obj\Debug\TTGiangVien.exe.config

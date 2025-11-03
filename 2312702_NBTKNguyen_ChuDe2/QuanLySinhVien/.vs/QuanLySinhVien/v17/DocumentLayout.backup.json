@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|c:\\users\\thieu\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\c\u0111 2\\quanlysinhvien\\quanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|solutionrelative:quanlysinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|c:\\users\\thieu\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\c\u0111 2\\quanlysinhvien\\frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|solutionrelative:frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|c:\\users\\thieu\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\c\u0111 2\\quanlysinhvien\\frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|solutionrelative:frmsinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|c:\\users\\thieu\\onedrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\c\u0111 2\\quanlysinhvien\\sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A0D6D76-8F20-4C7D-BDA0-6B9A1F92D4AD}|QuanLySinhVien.csproj|solutionrelative:sinhvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuanLySinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\QuanLySinhVien.cs",
+              "RelativeDocumentMoniker": "QuanLySinhVien.cs",
+              "ToolTip": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\QuanLySinhVien.cs",
+              "RelativeToolTip": "QuanLySinhVien.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T14:05:44.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\SinhVien.cs",
+              "RelativeDocumentMoniker": "SinhVien.cs",
+              "ToolTip": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\SinhVien.cs",
+              "RelativeToolTip": "SinhVien.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:48:25.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmSinhVien.cs",
+              "DocumentMoniker": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\frmSinhVien.cs",
+              "RelativeDocumentMoniker": "frmSinhVien.cs",
+              "ToolTip": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\frmSinhVien.cs",
+              "RelativeToolTip": "frmSinhVien.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAArwMMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-21T13:46:49.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmSinhVien.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\frmSinhVien.cs",
+              "RelativeDocumentMoniker": "frmSinhVien.cs",
+              "ToolTip": "C:\\Users\\thieu\\OneDrive\\\u30C9\u30AD\u30E5\u30E1\u30F3\u30C8\\C\u0110 2\\QuanLySinhVien\\frmSinhVien.cs [Design]",
+              "RelativeToolTip": "frmSinhVien.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T01:57:11.687Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

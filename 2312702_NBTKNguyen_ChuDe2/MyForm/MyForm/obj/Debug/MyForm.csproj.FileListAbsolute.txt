@@ -1,0 +1,11 @@
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\bin\Debug\MyForm.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\bin\Debug\MyForm.exe
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\bin\Debug\MyForm.pdb
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.csproj.AssemblyReference.cache
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.Properties.Resources.resources
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.csproj.GenerateResource.cache
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.csproj.CoreCompileInputs.cache
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.exe
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.pdb
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\CĐ 2\MyForm\MyForm\obj\Debug\MyForm.frmTrungTam.resources
