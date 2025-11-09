@@ -1,0 +1,18 @@
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\Lab07_Entity Framework.exe.config
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\Lab07_Entity Framework.exe
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\Lab07_Entity Framework.pdb
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\EntityFramework.dll
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\EntityFramework.SqlServer.dll
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\Newtonsoft.Json.dll
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\EntityFramework.xml
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\EntityFramework.SqlServer.xml
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\bin\Debug\Newtonsoft.Json.xml
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.csproj.AssemblyReference.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity_Framework.MainForm.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity_Framework.Properties.Resources.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.csproj.GenerateResource.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.csproj.CoreCompileInputs.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_En.4973398A.Up2Date
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.exe
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.pdb
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.exe.config
