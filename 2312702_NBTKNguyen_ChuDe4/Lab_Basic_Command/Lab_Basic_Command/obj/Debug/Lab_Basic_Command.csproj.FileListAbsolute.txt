@@ -10,3 +10,15 @@ D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe4\Lab_
 D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.pdb
 D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.exe.config
 D:\Assignments\Phát triển ứng dụng desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.FoodForm.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\bin\Debug\Lab_Basic_Command.exe.config
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\bin\Debug\Lab_Basic_Command.exe
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\bin\Debug\Lab_Basic_Command.pdb
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.csproj.AssemblyReference.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.exe.config
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.CategoryForm.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.FoodForm.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.Properties.Resources.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.csproj.GenerateResource.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.csproj.CoreCompileInputs.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.exe
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe4\Lab_Basic_Command\Lab_Basic_Command\obj\Debug\Lab_Basic_Command.pdb

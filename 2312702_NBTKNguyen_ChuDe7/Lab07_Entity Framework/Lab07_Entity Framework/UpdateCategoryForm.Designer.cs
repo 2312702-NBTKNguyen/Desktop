@@ -31,9 +31,11 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.txtCategoryId = new System.Windows.Forms.TextBox();
+            this.txtCategoryName = new System.Windows.Forms.TextBox();
+            this.cbbCategoryType = new System.Windows.Forms.ComboBox();
+            this.btnSave = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,41 +68,78 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "Loại";
             // 
-            // textBox1
+            // txtCategoryId
             // 
-            this.textBox1.Location = new System.Drawing.Point(173, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(112, 22);
-            this.textBox1.TabIndex = 4;
+            this.txtCategoryId.Location = new System.Drawing.Point(173, 29);
+            this.txtCategoryId.Name = "txtCategoryId";
+            this.txtCategoryId.ReadOnly = true;
+            this.txtCategoryId.Size = new System.Drawing.Size(112, 22);
+            this.txtCategoryId.TabIndex = 4;
             // 
-            // textBox2
+            // txtCategoryName
             // 
-            this.textBox2.Location = new System.Drawing.Point(173, 69);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(406, 22);
-            this.textBox2.TabIndex = 5;
+            this.txtCategoryName.Location = new System.Drawing.Point(173, 69);
+            this.txtCategoryName.Name = "txtCategoryName";
+            this.txtCategoryName.Size = new System.Drawing.Size(406, 22);
+            this.txtCategoryName.TabIndex = 5;
             // 
-            // comboBox1
+            // cbbCategoryType
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(173, 109);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(406, 24);
-            this.comboBox1.TabIndex = 6;
+            this.cbbCategoryType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbbCategoryType.FormattingEnabled = true;
+            this.cbbCategoryType.Items.AddRange(new object[] {
+            "Đồ uống",
+            "Thức ăn"});
+            this.cbbCategoryType.Location = new System.Drawing.Point(173, 109);
+            this.cbbCategoryType.Name = "cbbCategoryType";
+            this.cbbCategoryType.Size = new System.Drawing.Size(406, 24);
+            this.cbbCategoryType.TabIndex = 6;
+            // 
+            // btnSave
+            // 
+            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSave.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.Location = new System.Drawing.Point(357, 154);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.Size = new System.Drawing.Size(93, 28);
+            this.btnSave.TabIndex = 7;
+            this.btnSave.Text = "Lưu";
+            this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(486, 154);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(93, 28);
+            this.btnCancel.TabIndex = 8;
+            this.btnCancel.Text = "Thoát";
+            this.btnCancel.UseVisualStyleBackColor = true;
             // 
             // UpdateCategoryForm
             // 
+            this.AcceptButton = this.btnSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(658, 209);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.CancelButton = this.btnCancel;
+            this.ClientSize = new System.Drawing.Size(616, 209);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.cbbCategoryType);
+            this.Controls.Add(this.txtCategoryName);
+            this.Controls.Add(this.txtCategoryId);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "UpdateCategoryForm";
-            this.Text = "UpdateCategoryForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
+            this.Text = "Thêm/Cập nhật món ăn";
+            this.Load += new System.EventHandler(this.UpdateCategoryForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -111,8 +150,10 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox txtCategoryId;
+        private System.Windows.Forms.TextBox txtCategoryName;
+        private System.Windows.Forms.ComboBox cbbCategoryType;
+        private System.Windows.Forms.Button btnSave;
+        private System.Windows.Forms.Button btnCancel;
     }
 }

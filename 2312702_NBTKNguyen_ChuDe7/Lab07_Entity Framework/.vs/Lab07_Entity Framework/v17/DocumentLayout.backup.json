@@ -9,14 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude7\\lab07_entity framework\\lab07_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|solutionrelative:lab07_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude7\\lab07_entity framework\\lab07_entity framework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|solutionrelative:lab07_entity framework\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude7\\lab07_entity framework\\lab07_entity framework\\models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|solutionrelative:lab07_entity framework\\models\\foodmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FoodModel.cs",
-              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\Models\\FoodModel.cs",
-              "RelativeDocumentMoniker": "Lab07_Entity Framework\\Models\\FoodModel.cs",
-              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\Models\\FoodModel.cs*",
-              "RelativeToolTip": "Lab07_Entity Framework\\Models\\FoodModel.cs*",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA0AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:59:14.164Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -55,24 +34,11 @@
               "Title": "MainForm.cs",
               "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs",
               "RelativeDocumentMoniker": "Lab07_Entity Framework\\MainForm.cs",
-              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs*",
-              "RelativeToolTip": "Lab07_Entity Framework\\MainForm.cs*",
-              "ViewState": "AgIAADkAAAAAAAAAAIA3wJIAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs",
+              "RelativeToolTip": "Lab07_Entity Framework\\MainForm.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAASwMEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:51:35.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.config",
-              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\App.config",
-              "RelativeDocumentMoniker": "Lab07_Entity Framework\\App.config",
-              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\App.config",
-              "RelativeToolTip": "Lab07_Entity Framework\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-11-09T14:48:45.649Z",
+              "WhenOpened": "2025-11-10T09:00:26.212Z",
               "EditorCaption": ""
             },
             {
@@ -81,10 +47,10 @@
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs",
               "RelativeDocumentMoniker": "Lab07_Entity Framework\\MainForm.cs",
-              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs [Design]*",
-              "RelativeToolTip": "Lab07_Entity Framework\\MainForm.cs [Design]*",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs [Design]",
+              "RelativeToolTip": "Lab07_Entity Framework\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T14:00:14.128Z",
+              "WhenOpened": "2025-11-10T08:54:11.344Z",
               "EditorCaption": " [Design]"
             }
           ]

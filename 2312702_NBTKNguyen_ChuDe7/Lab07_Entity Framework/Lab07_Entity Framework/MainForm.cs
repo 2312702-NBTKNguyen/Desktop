@@ -13,6 +13,7 @@ namespace Lab07_Entity_Framework
 {
     public partial class MainForm : Form
     {
+
         private List<Category> GetCategories()
         {
             var dbContext = new RestaurantContext();
@@ -58,18 +59,20 @@ namespace Lab07_Entity_Framework
         private void MainForm_Load(object sender, EventArgs e)
         {
             ShowCategories();
+            ShowFoodsForNode(tvwCategory.SelectedNode);
         }
 
         private void btnReloadCategory_Click(object sender, EventArgs e)
         {
             ShowCategories();
+            ShowFoodsForNode(tvwCategory.SelectedNode);
         }
         private List<FoodModel> GetFoodByCategory(int categoryId)
         {
             var dbContext = new RestaurantContext();
             var foods = dbContext.Foods.AsQueryable();
 
-            if (categoryId != null && categoryId > 0)
+            if (categoryId > 0)
             {
                 foods = foods.Where(x => x.FoodCategoryId == categoryId);
             }
@@ -118,10 +121,14 @@ namespace Lab07_Entity_Framework
                 var categoryType = (CategoryType)node.Tag;
                 foods = GetFoodByCategoryType(categoryType);
             }
-            else
+            else if (node.Level == 2)
             {
                 var category = node.Tag as Category;
                 foods = GetFoodByCategory(category?.Id ?? 0);
+            }
+            else
+            {
+                foods = GetFoodByCategory(0);
             }
 
             ShowFoodsOnListView(foods);
@@ -143,6 +150,71 @@ namespace Lab07_Entity_Framework
         private void tvwCategory_AfterSelect(object sender, TreeViewEventArgs e)
         {
             ShowFoodsForNode(e.Node);
+        }
+
+        private void btnAddCategory_Click(object sender, EventArgs e)
+        {
+            var dialog = new UpdateCategoryForm();
+            if (dialog.ShowDialog(this) == DialogResult.OK)
+            {
+                ShowCategories();
+                ShowFoodsForNode(tvwCategory.SelectedNode);
+            }
+        }
+
+        private void tvwCategory_NodeMouseDoubleClick(object sender, TreeNodeMouseClickEventArgs e)
+        {
+            if (e.Node == null || e.Node.Level < 2 || e.Node.Tag == null) return;
+
+            var category = e.Node.Tag as Category;
+            var dialog = new UpdateCategoryForm(category?.Id);
+            if (dialog.ShowDialog(this) == DialogResult.OK)
+            {
+                ShowCategories();
+                ShowFoodsForNode(tvwCategory.SelectedNode);
+            }
+        }
+
+        private void btnReloadFood_Click(object sender, EventArgs e)
+        {
+            ShowFoodsForNode(tvwCategory.SelectedNode);
+        }
+
+        private void btnDeleteFood_Click(object sender, EventArgs e)
+        {
+            if (lvwFood.SelectedItems.Count == 0) return;
+
+            var dbContext = new RestaurantContext();
+            var selectedFoodId = int.Parse(lvwFood.SelectedItems[0].Text);
+            var selectedFood = dbContext.Foods.Find(selectedFoodId);
+
+            if (selectedFood != null)
+            {
+                dbContext.Foods.Remove(selectedFood);
+                dbContext.SaveChanges();
+                lvwFood.Items.Remove(lvwFood.SelectedItems[0]);
+            }
+        }
+
+        private void btnAddFood_Click(object sender, EventArgs e)
+        {
+            var dialog = new UpdateFoodForm();
+            if (dialog.ShowDialog(this) == DialogResult.OK)
+            {
+                ShowFoodsForNode(tvwCategory.SelectedNode);
+            }
+        }
+
+        private void lvwFood_DoubleClick(object sender, EventArgs e)
+        {
+            if (lvwFood.SelectedItems.Count == 0) return;
+
+            var foodId = int.Parse(lvwFood.SelectedItems[0].Text);
+            var dialog = new UpdateFoodForm(foodId);
+            if (dialog.ShowDialog(this) == DialogResult.OK)
+            {
+                ShowFoodsForNode(tvwCategory.SelectedNode);
+            }
         }
     }
 }

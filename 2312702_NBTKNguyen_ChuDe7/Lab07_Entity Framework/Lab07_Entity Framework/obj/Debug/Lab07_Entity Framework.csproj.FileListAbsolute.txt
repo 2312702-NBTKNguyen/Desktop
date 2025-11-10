@@ -16,3 +16,5 @@ D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_En
 D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.exe
 D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.pdb
 D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity Framework.exe.config
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity_Framework.UpdateCategoryForm.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe7\Lab07_Entity Framework\Lab07_Entity Framework\obj\Debug\Lab07_Entity_Framework.UpdateFoodForm.resources

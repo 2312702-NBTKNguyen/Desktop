@@ -35,17 +35,23 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.btnAddFood = new System.Windows.Forms.Button();
             this.btnReloadFood = new System.Windows.Forms.Button();
-            this.btnDelete = new System.Windows.Forms.Button();
+            this.btnDeleteFood = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.tvwCategory = new System.Windows.Forms.TreeView();
             this.lvwFood = new System.Windows.Forms.ListView();
+            this.clMaSo = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 13);
+            this.label1.Location = new System.Drawing.Point(8, 13);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(76, 20);
             this.label1.TabIndex = 0;
@@ -54,7 +60,7 @@
             // btnReloadCategory
             // 
             this.btnReloadCategory.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnReloadCategory.Location = new System.Drawing.Point(181, 9);
+            this.btnReloadCategory.Location = new System.Drawing.Point(192, 9);
             this.btnReloadCategory.Name = "btnReloadCategory";
             this.btnReloadCategory.Size = new System.Drawing.Size(41, 28);
             this.btnReloadCategory.TabIndex = 1;
@@ -66,13 +72,14 @@
             // btnAddCategory
             // 
             this.btnAddCategory.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAddCategory.Location = new System.Drawing.Point(228, 9);
+            this.btnAddCategory.Location = new System.Drawing.Point(239, 9);
             this.btnAddCategory.Name = "btnAddCategory";
             this.btnAddCategory.Size = new System.Drawing.Size(41, 28);
             this.btnAddCategory.TabIndex = 2;
             this.btnAddCategory.Text = "+";
             this.toolTip1.SetToolTip(this.btnAddCategory, "Thêm danh mục mới");
             this.btnAddCategory.UseVisualStyleBackColor = true;
+            this.btnAddCategory.Click += new System.EventHandler(this.btnAddCategory_Click);
             // 
             // btnAddFood
             // 
@@ -85,6 +92,7 @@
             this.btnAddFood.Text = "+";
             this.toolTip1.SetToolTip(this.btnAddFood, "Thêm món ăn mới");
             this.btnAddFood.UseVisualStyleBackColor = true;
+            this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
             // 
             // btnReloadFood
             // 
@@ -97,18 +105,20 @@
             this.btnReloadFood.Text = "R";
             this.toolTip1.SetToolTip(this.btnReloadFood, "Tải lại danh sách món ăn");
             this.btnReloadFood.UseVisualStyleBackColor = true;
+            this.btnReloadFood.Click += new System.EventHandler(this.btnReloadFood_Click);
             // 
-            // btnDelete
+            // btnDeleteFood
             // 
-            this.btnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnDelete.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(863, 9);
-            this.btnDelete.Name = "btnDelete";
-            this.btnDelete.Size = new System.Drawing.Size(41, 28);
-            this.btnDelete.TabIndex = 5;
-            this.btnDelete.Text = "-";
-            this.toolTip1.SetToolTip(this.btnDelete, "Xóa món ăn được chọn");
-            this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDeleteFood.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnDeleteFood.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDeleteFood.Location = new System.Drawing.Point(863, 9);
+            this.btnDeleteFood.Name = "btnDeleteFood";
+            this.btnDeleteFood.Size = new System.Drawing.Size(41, 28);
+            this.btnDeleteFood.TabIndex = 5;
+            this.btnDeleteFood.Text = "-";
+            this.toolTip1.SetToolTip(this.btnDeleteFood, "Xóa món ăn được chọn");
+            this.btnDeleteFood.UseVisualStyleBackColor = true;
+            this.btnDeleteFood.Click += new System.EventHandler(this.btnDeleteFood_Click);
             // 
             // label2
             // 
@@ -123,18 +133,26 @@
             // tvwCategory
             // 
             this.tvwCategory.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tvwCategory.Location = new System.Drawing.Point(16, 43);
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.tvwCategory.Location = new System.Drawing.Point(12, 43);
             this.tvwCategory.Name = "tvwCategory";
-            this.tvwCategory.Size = new System.Drawing.Size(253, 348);
+            this.tvwCategory.Size = new System.Drawing.Size(268, 348);
             this.tvwCategory.TabIndex = 7;
             this.tvwCategory.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.tvwCategory_AfterSelect);
+            this.tvwCategory.NodeMouseDoubleClick += new System.Windows.Forms.TreeNodeMouseClickEventHandler(this.tvwCategory_NodeMouseDoubleClick);
             // 
             // lvwFood
             // 
             this.lvwFood.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.lvwFood.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.clMaSo,
+            this.columnHeader1,
+            this.columnHeader2,
+            this.columnHeader3,
+            this.columnHeader4,
+            this.columnHeader5});
             this.lvwFood.FullRowSelect = true;
             this.lvwFood.GridLines = true;
             this.lvwFood.HideSelection = false;
@@ -145,6 +163,33 @@
             this.lvwFood.TabIndex = 8;
             this.lvwFood.UseCompatibleStateImageBehavior = false;
             this.lvwFood.View = System.Windows.Forms.View.Details;
+            this.lvwFood.DoubleClick += new System.EventHandler(this.lvwFood_DoubleClick);
+            // 
+            // clMaSo
+            // 
+            this.clMaSo.Text = "Mã số";
+            // 
+            // columnHeader1
+            // 
+            this.columnHeader1.Text = "Tên đồ ăn/Thức uống";
+            // 
+            // columnHeader2
+            // 
+            this.columnHeader2.Text = "ĐV Tính";
+            // 
+            // columnHeader3
+            // 
+            this.columnHeader3.Text = "Giá bán";
+            // 
+            // columnHeader4
+            // 
+            this.columnHeader4.Text = "Nhóm mặt hàng";
+            this.columnHeader4.Width = 182;
+            // 
+            // columnHeader5
+            // 
+            this.columnHeader5.Text = "Ghi chú";
+            this.columnHeader5.Width = 221;
             // 
             // MainForm
             // 
@@ -154,7 +199,7 @@
             this.Controls.Add(this.lvwFood);
             this.Controls.Add(this.tvwCategory);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnDelete);
+            this.Controls.Add(this.btnDeleteFood);
             this.Controls.Add(this.btnAddFood);
             this.Controls.Add(this.btnReloadFood);
             this.Controls.Add(this.btnAddCategory);
@@ -177,10 +222,16 @@
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btnAddFood;
         private System.Windows.Forms.Button btnReloadFood;
-        private System.Windows.Forms.Button btnDelete;
+        private System.Windows.Forms.Button btnDeleteFood;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TreeView tvwCategory;
         private System.Windows.Forms.ListView lvwFood;
+        private System.Windows.Forms.ColumnHeader clMaSo;
+        private System.Windows.Forms.ColumnHeader columnHeader1;
+        private System.Windows.Forms.ColumnHeader columnHeader2;
+        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader columnHeader4;
+        private System.Windows.Forms.ColumnHeader columnHeader5;
     }
 }
 

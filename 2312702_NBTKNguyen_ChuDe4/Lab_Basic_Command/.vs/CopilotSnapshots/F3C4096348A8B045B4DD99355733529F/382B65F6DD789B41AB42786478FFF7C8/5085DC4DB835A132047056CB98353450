@@ -1,0 +1,154 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml.Linq;
+
+namespace Lab_Basic_Command
+{
+    public partial class FoodForm : Form
+    {
+        private DataTable _foodTable;
+        private SqlDataAdapter _foodAdapter;
+        private int _currentCategoryId;
+        private readonly string _connectionString = @"server=.\NGUYEN; database = RestaurantManagement; Integrated Security = true; ";
+
+        public FoodForm()
+        {
+            InitializeComponent();
+        }
+
+        private void FoodForm_Load(object sender, EventArgs e)
+        {
+        }
+        public void LoadFood(int categoryID)
+        {
+            string connectionString = @"server=.\NGUYEN; database = RestaurantManagement; Integrated Security = true; ";
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
+            SqlCommand sqlCommand = sqlConnection.CreateCommand();
+
+            sqlCommand.CommandText = "SELECT Name FROM Category WHERE ID = " + categoryID;
+            sqlConnection.Open();
+
+            string catName = sqlCommand.ExecuteScalar().ToString();
+            this.Text = "Danh sách các món ăn thuộc nhóm: " + catName;
+
+            sqlCommand.CommandText = "SELECT * FROM Food WHERE FoodCategoryID = " + categoryID;
+
+            SqlDataAdapter da = new SqlDataAdapter(sqlCommand);
+            DataTable dt = new DataTable("Food");
+            da.Fill(dt);
+            dgvFood.DataSource = dt;
+
+            sqlConnection.Close();
+            sqlConnection.Dispose();
+            da.Dispose();
+
+            _currentCategoryId = categoryID;
+            _foodTable = dt;
+            SqlConnection conn2 = new SqlConnection(_connectionString);
+            SqlCommand selectCmd = new SqlCommand("SELECT ID, Name, Unit, FoodCategoryID, Price, Notes FROM Food WHERE FoodCategoryID = @catId", conn2);
+            selectCmd.Parameters.Add("@catId", SqlDbType.Int).Value = categoryID;
+            _foodAdapter = new SqlDataAdapter(selectCmd)
+            {
+                MissingSchemaAction = MissingSchemaAction.AddWithKey
+            };
+            SqlCommandBuilder builder = new SqlCommandBuilder(_foodAdapter);
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (_foodTable == null || _foodAdapter == null)
+                {
+                    MessageBox.Show("Chưa có dữ liệu để lưu.");
+                    return;
+                }
+
+                dgvFood.EndEdit();
+                var cm = BindingContext[dgvFood.DataSource] as CurrencyManager;
+                if (cm != null) cm.EndCurrentEdit();
+
+                foreach (DataRow row in _foodTable.Rows)
+                {
+                    if (row.RowState == DataRowState.Added)
+                    {
+                        if (row["FoodCategoryID"] == DBNull.Value || Convert.ToInt32(row["FoodCategoryID"]) == 0)
+                        {
+                            row["FoodCategoryID"] = _currentCategoryId;
+                        }
+                    }
+                }
+
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    _foodAdapter.SelectCommand.Connection = conn;
+                    if (_foodAdapter.InsertCommand != null) _foodAdapter.InsertCommand.Connection = conn;
+                    if (_foodAdapter.UpdateCommand != null) _foodAdapter.UpdateCommand.Connection = conn;
+                    if (_foodAdapter.DeleteCommand != null) _foodAdapter.DeleteCommand.Connection = conn;
+
+                    conn.Open();
+                    int affected = _foodAdapter.Update(_foodTable);
+                    MessageBox.Show(affected > 0 ? "Lưu thành công" : "Không có thay đổi để lưu");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi lưu: " + ex.Message);
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (_foodTable == null || _foodAdapter == null)
+                {
+                    MessageBox.Show("Chưa có dữ liệu để xóa.");
+                    return;
+                }
+                if (dgvFood.CurrentRow == null || dgvFood.CurrentRow.Index < 0)
+                {
+                    MessageBox.Show("Hãy chọn một dòng để xóa.");
+                    return;
+                }
+
+                if (MessageBox.Show("Bạn có chắc muốn xóa dòng được chọn?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                {
+                    return;
+                }
+
+                DataRowView drv = dgvFood.CurrentRow.DataBoundItem as DataRowView;
+                if (drv == null)
+                {
+                    MessageBox.Show("Không thể xác định dòng dữ liệu.");
+                    return;
+                }
+                drv.Row.Delete();
+
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    _foodAdapter.SelectCommand.Connection = conn;
+                    if (_foodAdapter.InsertCommand != null) _foodAdapter.InsertCommand.Connection = conn;
+                    if (_foodAdapter.UpdateCommand != null) _foodAdapter.UpdateCommand.Connection = conn;
+                    if (_foodAdapter.DeleteCommand != null) _foodAdapter.DeleteCommand.Connection = conn;
+
+                    conn.Open();
+                    int affected = _foodAdapter.Update(_foodTable);
+                    MessageBox.Show(affected > 0 ? "Đã xóa" : "Không có gì được xóa");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xóa: " + ex.Message);
+            }
+        }
+    }
+}

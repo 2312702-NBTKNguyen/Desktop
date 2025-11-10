@@ -1,0 +1,147 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Data.SqlClient;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Xml.Linq;
+
+namespace Lab_Basic_Command
+{
+    public partial class FoodForm : Form
+    {
+        private readonly string _connectionString = @"server=.\NGUYEN; database=RestaurantManagement; Integrated Security=true;";
+        private int _currentCategoryId;
+        private DataTable _foodTable;
+        private SqlDataAdapter _foodAdapter;
+
+        public FoodForm()
+        {
+            InitializeComponent();
+        }
+
+        private void FoodForm_Load(object sender, EventArgs e)
+        {
+            btnDelete.Click += btnDelete_Click;
+            dgvFood.DefaultValuesNeeded += DgvFood_DefaultValuesNeeded;
+        }
+
+        private void DgvFood_DefaultValuesNeeded(object sender, DataGridViewRowEventArgs e)
+        {
+            e.Row.Cells["clFoodCategoryID"].Value = _currentCategoryId;
+            e.Row.Cells["clPrice"].Value =0;
+        }
+
+        public void LoadFood(int categoryID)
+        {
+            _currentCategoryId = categoryID;
+
+            using (SqlConnection sqlConnection = new SqlConnection(_connectionString))
+            using (SqlCommand nameCmd = new SqlCommand("SELECT Name FROM Category WHERE ID = @id", sqlConnection))
+            {
+                nameCmd.Parameters.Add("@id", SqlDbType.Int).Value = categoryID;
+                sqlConnection.Open();
+                object result = nameCmd.ExecuteScalar();
+                string catName = result != null ? result.ToString() : string.Empty;
+                this.Text = "Danh sách các món ăn thuộc nhóm: " + catName;
+            }
+
+            SqlConnection conn = new SqlConnection(_connectionString);
+            SqlCommand selectCmd = new SqlCommand("SELECT ID, Name, Unit, FoodCategoryID, Price, Notes FROM Food WHERE FoodCategoryID = @catId", conn);
+            selectCmd.Parameters.Add("@catId", SqlDbType.Int).Value = categoryID;
+
+            _foodAdapter = new SqlDataAdapter(selectCmd)
+            {
+                MissingSchemaAction = MissingSchemaAction.AddWithKey
+            };
+            SqlCommandBuilder builder = new SqlCommandBuilder(_foodAdapter);
+
+            _foodTable = new DataTable("Food");
+            _foodAdapter.Fill(_foodTable);
+            _foodTable.TableNewRow += (s, e) =>
+            {
+                e.Row["FoodCategoryID"] = _currentCategoryId;
+                if (e.Row["Price"] == DBNull.Value) e.Row["Price"] =0;
+            };
+
+            dgvFood.DataSource = _foodTable;
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                dgvFood.EndEdit();
+                if (_foodTable == null || _foodAdapter == null)
+                {
+                    MessageBox.Show("Chưa có dữ liệu để lưu.");
+                    return;
+                }
+
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    _foodAdapter.SelectCommand.Connection = conn;
+                    if (_foodAdapter.InsertCommand != null) _foodAdapter.InsertCommand.Connection = conn;
+                    if (_foodAdapter.UpdateCommand != null) _foodAdapter.UpdateCommand.Connection = conn;
+                    if (_foodAdapter.DeleteCommand != null) _foodAdapter.DeleteCommand.Connection = conn;
+                    conn.Open();
+                    int affected = _foodAdapter.Update(_foodTable);
+                    MessageBox.Show(affected >0 ? "Lưu thành công" : "Không có thay đổi để lưu");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi lưu: " + ex.Message);
+            }
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (_foodTable == null || _foodAdapter == null)
+                {
+                    MessageBox.Show("Chưa có dữ liệu để xóa.");
+                    return;
+                }
+                if (dgvFood.CurrentRow == null)
+                {
+                    MessageBox.Show("Hãy chọn một dòng để xóa.");
+                    return;
+                }
+
+                if (MessageBox.Show("Bạn có chắc muốn xóa dòng đã chọn?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                {
+                    return;
+                }
+
+                DataRowView drv = dgvFood.CurrentRow.DataBoundItem as DataRowView;
+                if (drv == null)
+                {
+                    MessageBox.Show("Không thể xác định dòng dữ liệu.");
+                    return;
+                }
+                drv.Row.Delete();
+
+                using (SqlConnection conn = new SqlConnection(_connectionString))
+                {
+                    _foodAdapter.SelectCommand.Connection = conn;
+                    if (_foodAdapter.InsertCommand != null) _foodAdapter.InsertCommand.Connection = conn;
+                    if (_foodAdapter.UpdateCommand != null) _foodAdapter.UpdateCommand.Connection = conn;
+                    if (_foodAdapter.DeleteCommand != null) _foodAdapter.DeleteCommand.Connection = conn;
+                    conn.Open();
+                    int affected = _foodAdapter.Update(_foodTable);
+                    MessageBox.Show(affected >0 ? "Đã xóa" : "Không có gì được xóa");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi khi xóa: " + ex.Message);
+            }
+        }
+    }
+}
