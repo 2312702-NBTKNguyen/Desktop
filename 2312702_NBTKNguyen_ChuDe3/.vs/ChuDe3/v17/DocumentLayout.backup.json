@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A17848B8-37C8-4583-8804-EE5C9C82CAB6}|ChuDe3\\ChuDe3.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude3\\chude3\\frmchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A17848B8-37C8-4583-8804-EE5C9C82CAB6}|ChuDe3\\ChuDe3.csproj|solutionrelative:chude3\\frmchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17848B8-37C8-4583-8804-EE5C9C82CAB6}|ChuDe3\\ChuDe3.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\chude3\\frmchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17848B8-37C8-4583-8804-EE5C9C82CAB6}|ChuDe3\\ChuDe3.csproj|solutionrelative:chude3\\frmchinh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17848B8-37C8-4583-8804-EE5C9C82CAB6}|ChuDe3\\ChuDe3.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\chude3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17848B8-37C8-4583-8804-EE5C9C82CAB6}|ChuDe3\\ChuDe3.csproj|solutionrelative:chude3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\ChuDe3\\Program.cs",
+              "RelativeDocumentMoniker": "ChuDe3\\Program.cs",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\ChuDe3\\Program.cs",
+              "RelativeToolTip": "ChuDe3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T03:14:22.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmChinh.cs",
+              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\ChuDe3\\frmChinh.cs",
+              "RelativeDocumentMoniker": "ChuDe3\\frmChinh.cs",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\ChuDe3\\frmChinh.cs",
+              "RelativeToolTip": "ChuDe3\\frmChinh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwJkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-29T01:47:34.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmChinh.cs [Design]",
+              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\ChuDe3\\frmChinh.cs",
+              "RelativeDocumentMoniker": "ChuDe3\\frmChinh.cs",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe3\\ChuDe3\\frmChinh.cs [Design]",
+              "RelativeToolTip": "ChuDe3\\frmChinh.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-22T01:05:55.909Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

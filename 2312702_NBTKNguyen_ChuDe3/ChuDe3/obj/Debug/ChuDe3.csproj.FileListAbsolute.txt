@@ -1,0 +1,30 @@
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\bin\Debug\ChuDe3.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\bin\Debug\ChuDe3.exe
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\bin\Debug\ChuDe3.pdb
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.AssemblyReference.cache
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.Properties.Resources.resources
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.GenerateResource.cache
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.CoreCompileInputs.cache
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.exe
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.pdb
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.exe.config
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.frmChinh.resources
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.frmTimKiem.resources
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\bin\Debug\Newtonsoft.Json.dll
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\bin\Debug\Newtonsoft.Json.xml
+D:\Assignments\Phát triển ứng dụng desktop\ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.Up2Date
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\bin\Debug\ChuDe3.exe.config
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\bin\Debug\ChuDe3.exe
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\bin\Debug\ChuDe3.pdb
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\bin\Debug\Newtonsoft.Json.dll
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\bin\Debug\Newtonsoft.Json.xml
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.AssemblyReference.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.exe.config
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.frmChinh.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.frmTimKiem.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.Properties.Resources.resources
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.GenerateResource.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.CoreCompileInputs.cache
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.csproj.Up2Date
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.exe
+D:\Assignments\Desktop\2312702_NBTKNguyen_ChuDe3\ChuDe3\obj\Debug\ChuDe3.pdb
