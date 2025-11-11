@@ -38,14 +38,15 @@
             this.tsmAddFood = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtSearchByName = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.lblCatName = new System.Windows.Forms.Label();
             this.lblQuantity = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtSearchByName = new System.Windows.Forms.TextBox();
+            this.tsmViewBills = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.ctmFoodList.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -65,10 +66,11 @@
             // 
             // cbbCategory
             // 
+            this.cbbCategory.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbCategory.FormattingEnabled = true;
-            this.cbbCategory.Location = new System.Drawing.Point(174, 21);
+            this.cbbCategory.Location = new System.Drawing.Point(180, 18);
             this.cbbCategory.Name = "cbbCategory";
-            this.cbbCategory.Size = new System.Drawing.Size(318, 24);
+            this.cbbCategory.Size = new System.Drawing.Size(318, 28);
             this.cbbCategory.TabIndex = 1;
             this.cbbCategory.SelectedIndexChanged += new System.EventHandler(this.cbbCategory_SelectedIndexChanged);
             // 
@@ -84,6 +86,7 @@
             this.dgvFoodList.RowTemplate.Height = 24;
             this.dgvFoodList.Size = new System.Drawing.Size(1002, 383);
             this.dgvFoodList.TabIndex = 2;
+            this.dgvFoodList.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvFoodList_CellMouseDown);
             // 
             // ctmFoodList
             // 
@@ -92,9 +95,10 @@
             this.tsmCalculateQuantity,
             this.tsmSeparator,
             this.tsmAddFood,
-            this.tsmUpdateFood});
+            this.tsmUpdateFood,
+            this.tsmViewBills});
             this.ctmFoodList.Name = "ctmFoodList";
-            this.ctmFoodList.Size = new System.Drawing.Size(219, 82);
+            this.ctmFoodList.Size = new System.Drawing.Size(219, 106);
             // 
             // tsmCalculateQuantity
             // 
@@ -133,6 +137,25 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1002, 67);
             this.panel1.TabIndex = 3;
+            // 
+            // txtSearchByName
+            // 
+            this.txtSearchByName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSearchByName.Location = new System.Drawing.Point(701, 18);
+            this.txtSearchByName.Name = "txtSearchByName";
+            this.txtSearchByName.Size = new System.Drawing.Size(262, 27);
+            this.txtSearchByName.TabIndex = 3;
+            this.txtSearchByName.TextChanged += new System.EventHandler(this.txtSearchByName_TextChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(552, 21);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(132, 20);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Tìm kiếm theo tên:";
             // 
             // panel2
             // 
@@ -195,23 +218,12 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Có tất cả";
             // 
-            // label4
+            // tsmViewBills
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(552, 21);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(132, 20);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Tìm kiếm theo tên:";
-            // 
-            // txtSearchByName
-            // 
-            this.txtSearchByName.Location = new System.Drawing.Point(699, 21);
-            this.txtSearchByName.Name = "txtSearchByName";
-            this.txtSearchByName.Size = new System.Drawing.Size(262, 22);
-            this.txtSearchByName.TabIndex = 3;
-            this.txtSearchByName.TextChanged += new System.EventHandler(this.txtSearchByName_TextChanged);
+            this.tsmViewBills.Name = "tsmViewBills";
+            this.tsmViewBills.Size = new System.Drawing.Size(218, 24);
+            this.tsmViewBills.Text = "Xem hóa đơn";
+            this.tsmViewBills.Click += new System.EventHandler(this.tsmViewBills_Click);
             // 
             // FoodForm
             // 
@@ -222,6 +234,7 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "FoodForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Danh sách món ăn";
             this.Load += new System.EventHandler(this.FoodForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).EndInit();
@@ -238,7 +251,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ComboBox cbbCategory;
+        public System.Windows.Forms.ComboBox cbbCategory;
         private System.Windows.Forms.DataGridView dgvFoodList;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
@@ -254,6 +267,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsmUpdateFood;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSearchByName;
+        private System.Windows.Forms.ToolStripMenuItem tsmViewBills;
     }
 }
 

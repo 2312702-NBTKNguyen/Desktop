@@ -109,62 +109,71 @@
             // 
             // txtFoodID
             // 
-            this.txtFoodID.Location = new System.Drawing.Point(150, 20);
+            this.txtFoodID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtFoodID.Location = new System.Drawing.Point(150, 17);
             this.txtFoodID.Name = "txtFoodID";
             this.txtFoodID.ReadOnly = true;
-            this.txtFoodID.Size = new System.Drawing.Size(139, 22);
+            this.txtFoodID.Size = new System.Drawing.Size(139, 27);
             this.txtFoodID.TabIndex = 7;
             // 
             // txtName
             // 
-            this.txtName.Location = new System.Drawing.Point(150, 56);
+            this.txtName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtName.Location = new System.Drawing.Point(150, 53);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(451, 22);
+            this.txtName.Size = new System.Drawing.Size(451, 27);
             this.txtName.TabIndex = 8;
             // 
             // txtUnit
             // 
-            this.txtUnit.Location = new System.Drawing.Point(150, 94);
+            this.txtUnit.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUnit.Location = new System.Drawing.Point(150, 91);
             this.txtUnit.Name = "txtUnit";
-            this.txtUnit.Size = new System.Drawing.Size(451, 22);
+            this.txtUnit.Size = new System.Drawing.Size(451, 27);
             this.txtUnit.TabIndex = 9;
             // 
             // txtNotes
             // 
-            this.txtNotes.Location = new System.Drawing.Point(150, 206);
+            this.txtNotes.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNotes.Location = new System.Drawing.Point(150, 203);
             this.txtNotes.Name = "txtNotes";
-            this.txtNotes.Size = new System.Drawing.Size(451, 22);
+            this.txtNotes.Size = new System.Drawing.Size(451, 27);
             this.txtNotes.TabIndex = 10;
             // 
             // cbbCatName
             // 
+            this.cbbCatName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbCatName.FormattingEnabled = true;
-            this.cbbCatName.Location = new System.Drawing.Point(150, 131);
+            this.cbbCatName.Location = new System.Drawing.Point(150, 128);
             this.cbbCatName.Name = "cbbCatName";
-            this.cbbCatName.Size = new System.Drawing.Size(330, 24);
+            this.cbbCatName.Size = new System.Drawing.Size(330, 28);
             this.cbbCatName.TabIndex = 11;
             // 
             // nudPrice
             // 
-            this.nudPrice.Location = new System.Drawing.Point(150, 170);
+            this.nudPrice.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudPrice.Location = new System.Drawing.Point(150, 167);
             this.nudPrice.Name = "nudPrice";
-            this.nudPrice.Size = new System.Drawing.Size(451, 22);
+            this.nudPrice.Size = new System.Drawing.Size(451, 27);
             this.nudPrice.TabIndex = 12;
             // 
             // btnAddNew
             // 
-            this.btnAddNew.Location = new System.Drawing.Point(501, 131);
+            this.btnAddNew.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAddNew.Location = new System.Drawing.Point(501, 128);
             this.btnAddNew.Name = "btnAddNew";
-            this.btnAddNew.Size = new System.Drawing.Size(100, 24);
+            this.btnAddNew.Size = new System.Drawing.Size(100, 28);
             this.btnAddNew.TabIndex = 13;
             this.btnAddNew.Text = "Add New";
             this.btnAddNew.UseVisualStyleBackColor = true;
+            this.btnAddNew.Click += new System.EventHandler(this.btnAddNew_Click);
             // 
             // btnAddFood
             // 
+            this.btnAddFood.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAddFood.Location = new System.Drawing.Point(150, 248);
             this.btnAddFood.Name = "btnAddFood";
-            this.btnAddFood.Size = new System.Drawing.Size(100, 24);
+            this.btnAddFood.Size = new System.Drawing.Size(100, 31);
             this.btnAddFood.TabIndex = 14;
             this.btnAddFood.Text = "Add";
             this.btnAddFood.UseVisualStyleBackColor = true;
@@ -172,9 +181,10 @@
             // 
             // btnCancel
             // 
+            this.btnCancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCancel.Location = new System.Drawing.Point(501, 248);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(100, 24);
+            this.btnCancel.Size = new System.Drawing.Size(100, 31);
             this.btnCancel.TabIndex = 15;
             this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -182,9 +192,10 @@
             // 
             // btnUpdateFood
             // 
+            this.btnUpdateFood.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateFood.Location = new System.Drawing.Point(326, 248);
             this.btnUpdateFood.Name = "btnUpdateFood";
-            this.btnUpdateFood.Size = new System.Drawing.Size(100, 24);
+            this.btnUpdateFood.Size = new System.Drawing.Size(100, 31);
             this.btnUpdateFood.TabIndex = 16;
             this.btnUpdateFood.Text = "Update";
             this.btnUpdateFood.UseVisualStyleBackColor = true;
@@ -211,7 +222,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FoodInfoForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "FoodInfoForm";
             this.Load += new System.EventHandler(this.FoodInfoForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudPrice)).EndInit();

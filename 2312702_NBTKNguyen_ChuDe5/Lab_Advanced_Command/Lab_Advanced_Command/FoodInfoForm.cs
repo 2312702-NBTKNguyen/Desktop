@@ -191,5 +191,27 @@ namespace Lab_Advanced_Command
         {
             this.Close();
         }
+
+        private void btnAddNew_Click(object sender, EventArgs e)
+        {
+            AddCategoryForm addCatForm = new AddCategoryForm();
+            addCatForm.FormClosed += new FormClosedEventHandler(AddCatForm_FormClosed);
+            addCatForm.Show(this);
+        }
+        void AddCatForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            int selectedIndex = cbbCatName.SelectedIndex;
+            InitValues();
+            if (selectedIndex >= 0 && selectedIndex < cbbCatName.Items.Count)
+                cbbCatName.SelectedIndex = selectedIndex;
+
+            if (this.Owner is FoodForm foodForm)
+            {
+                int catIndex = foodForm.cbbCategory.SelectedIndex;
+                foodForm.LoadCategory();
+                if (catIndex >= 0 && catIndex < foodForm.cbbCategory.Items.Count)
+                    foodForm.cbbCategory.SelectedIndex = catIndex;
+            }
+        }
     }
 }

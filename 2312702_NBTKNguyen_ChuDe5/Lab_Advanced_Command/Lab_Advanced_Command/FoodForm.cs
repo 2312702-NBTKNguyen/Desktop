@@ -14,16 +14,18 @@ namespace Lab_Advanced_Command
     public partial class FoodForm : Form
     {
         private DataTable foodTable;
+        
         public FoodForm()
         {
             InitializeComponent();
+            dgvFoodList.CellMouseDown += dgvFoodList_CellMouseDown;
         }
 
         private void FoodForm_Load(object sender, EventArgs e)
         {
             LoadCategory();
         }
-        private void LoadCategory()
+        public void LoadCategory()
         {
             string connectionString = @"server=.\NGUYEN; database = RestaurantManagement; Integrated Security = true;";
             SqlConnection conn = new SqlConnection(connectionString);
@@ -78,34 +80,39 @@ namespace Lab_Advanced_Command
 
         private void tsmCalculateQuantity_Click(object sender, EventArgs e)
         {
+            var selectedRow = (dgvFoodList.SelectedRows.Count > 0)
+                        ? dgvFoodList.SelectedRows[0]
+                        : dgvFoodList.CurrentRow;
+
+            if (selectedRow == null)
+            {
+                MessageBox.Show("Bạn chưa chọn món ăn nào.");
+                return;
+            }
+
+            DataRowView rowView = selectedRow.DataBoundItem as DataRowView;
+            int foodId = (int)rowView["ID"];
             string connectionString = @"server=.\NGUYEN; database = RestaurantManagement; Integrated Security = true; ";
             SqlConnection conn = new SqlConnection(connectionString);
 
             SqlCommand cmd = conn.CreateCommand();
-            cmd.CommandText = "SELECT @numSaleFood = sum(Quantity) FROM BillDetails WHERE FoodID = @foodId";
+            cmd.CommandText = @"SELECT @numSaleFood = ISNULL(SUM(Quantity), 0)
+                            FROM BillDetails
+                            WHERE FoodID = @foodId";
+            cmd.Parameters.Add("@foodId", SqlDbType.Int).Value = foodId;
+            cmd.Parameters.Add("@numSaleFood", SqlDbType.Int).Direction = ParameterDirection.Output;
 
-            if (dgvFoodList.SelectedRows.Count > 0)
-            {
-                DataGridViewRow selectedRow = dgvFoodList.SelectedRows[0];
-                DataRowView rowView = selectedRow.DataBoundItem as DataRowView;
+            conn.Open();
+            cmd.ExecuteNonQuery();
 
-                cmd.Parameters.Add("@foodId", SqlDbType.Int);
-                cmd.Parameters["@foodId"].Value = rowView["ID"];
+            int numSale = (int)cmd.Parameters["@numSaleFood"].Value;
+            string unit = rowView["Unit"].ToString();
+            string name = rowView["Name"].ToString();
+            MessageBox.Show($"Tổng số lượng món {name} đã bán là: {numSale} {unit}");
 
-                cmd.Parameters.Add("@numSaleFood", SqlDbType.Int);
-                cmd.Parameters["@numSaleFood"].Direction = ParameterDirection.Output;
-
-                conn.Open();
-
-                cmd.ExecuteNonQuery();
-
-                string result = cmd.Parameters["@numSaleFood"].Value.ToString();
-                MessageBox.Show("Tổng số lượng món " + rowView["Name"] + " đã bán là: " + result + " " + rowView["Unit"]);
-
-                conn.Close();
+            conn.Close();
                 cmd.Dispose();
                 conn.Dispose();
-            }
         }
 
         private void tsmAddFood_Click(object sender, EventArgs e)
@@ -148,6 +155,26 @@ namespace Lab_Advanced_Command
                 filterExpression, sortExpression, rowStateFilter);
 
             dgvFoodList.DataSource = foodView;
+        }
+
+        private void tsmViewBills_Click(object sender, EventArgs e)
+        {
+            if (dgvFoodList.SelectedRows.Count > 0)
+            {
+                DataGridViewRow row = dgvFoodList.SelectedRows[0];
+                int foodId = Convert.ToInt32(row.Cells["ID"].Value);
+                OrdersForm frm = new OrdersForm(foodId);
+                frm.ShowDialog(this);
+            }
+        }
+
+        private void dgvFoodList_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right && e.RowIndex >= 0)
+            {
+                dgvFoodList.ClearSelection();
+                dgvFoodList.Rows[e.RowIndex].Selected = true;
+            }
         }
     }
 }
