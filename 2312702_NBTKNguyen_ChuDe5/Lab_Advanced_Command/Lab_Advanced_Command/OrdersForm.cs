@@ -13,7 +13,7 @@ namespace Lab_Advanced_Command
 {
     public partial class OrdersForm : Form
     {
-        public OrdersForm(int foodId)
+        public OrdersForm()
         {
             InitializeComponent();
         }
@@ -30,9 +30,11 @@ namespace Lab_Advanced_Command
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dtBills = new DataTable();
+
                 conn.Open();
                 adapter.Fill(dtBills);
 
+                dgvBills.AutoGenerateColumns = true;
                 dgvBills.DataSource = dtBills;
 
                 decimal totalAmount = 0;

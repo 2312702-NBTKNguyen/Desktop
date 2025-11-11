@@ -37,6 +37,7 @@
             this.tsmSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.tsmAddFood = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmViewBills = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtSearchByName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
@@ -46,7 +47,7 @@
             this.lblQuantity = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.tsmViewBills = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnViewBills = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.ctmFoodList.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -84,7 +85,7 @@
             this.dgvFoodList.Name = "dgvFoodList";
             this.dgvFoodList.RowHeadersWidth = 51;
             this.dgvFoodList.RowTemplate.Height = 24;
-            this.dgvFoodList.Size = new System.Drawing.Size(1002, 383);
+            this.dgvFoodList.Size = new System.Drawing.Size(1148, 383);
             this.dgvFoodList.TabIndex = 2;
             this.dgvFoodList.CellMouseDown += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvFoodList_CellMouseDown);
             // 
@@ -126,8 +127,15 @@
             this.tsmUpdateFood.Text = "Cập nhật món ăn";
             this.tsmUpdateFood.Click += new System.EventHandler(this.tsmUpdateFood_Click);
             // 
+            // tsmViewBills
+            // 
+            this.tsmViewBills.Name = "tsmViewBills";
+            this.tsmViewBills.Size = new System.Drawing.Size(218, 24);
+            this.tsmViewBills.Text = "Xem hóa đơn";
+            // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnViewBills);
             this.panel1.Controls.Add(this.txtSearchByName);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.label1);
@@ -135,7 +143,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1002, 67);
+            this.panel1.Size = new System.Drawing.Size(1148, 67);
             this.panel1.TabIndex = 3;
             // 
             // txtSearchByName
@@ -163,7 +171,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel2.Location = new System.Drawing.Point(0, 67);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1002, 383);
+            this.panel2.Size = new System.Drawing.Size(1148, 383);
             this.panel2.TabIndex = 4;
             // 
             // panel3
@@ -175,7 +183,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel3.Location = new System.Drawing.Point(0, 411);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1002, 39);
+            this.panel3.Size = new System.Drawing.Size(1148, 39);
             this.panel3.TabIndex = 4;
             // 
             // lblCatName
@@ -218,18 +226,22 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Có tất cả";
             // 
-            // tsmViewBills
+            // btnViewBills
             // 
-            this.tsmViewBills.Name = "tsmViewBills";
-            this.tsmViewBills.Size = new System.Drawing.Size(218, 24);
-            this.tsmViewBills.Text = "Xem hóa đơn";
-            this.tsmViewBills.Click += new System.EventHandler(this.tsmViewBills_Click);
+            this.btnViewBills.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewBills.Location = new System.Drawing.Point(1011, 16);
+            this.btnViewBills.Name = "btnViewBills";
+            this.btnViewBills.Size = new System.Drawing.Size(125, 31);
+            this.btnViewBills.TabIndex = 15;
+            this.btnViewBills.Text = "Xem hóa đơn";
+            this.btnViewBills.UseVisualStyleBackColor = true;
+            this.btnViewBills.Click += new System.EventHandler(this.btnViewBills_Click);
             // 
             // FoodForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1002, 450);
+            this.ClientSize = new System.Drawing.Size(1148, 450);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
@@ -268,6 +280,7 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtSearchByName;
         private System.Windows.Forms.ToolStripMenuItem tsmViewBills;
+        private System.Windows.Forms.Button btnViewBills;
     }
 }
 

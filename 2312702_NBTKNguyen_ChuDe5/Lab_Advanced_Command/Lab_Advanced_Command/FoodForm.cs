@@ -157,23 +157,20 @@ namespace Lab_Advanced_Command
             dgvFoodList.DataSource = foodView;
         }
 
-        private void tsmViewBills_Click(object sender, EventArgs e)
-        {
-            if (dgvFoodList.SelectedRows.Count > 0)
-            {
-                DataGridViewRow row = dgvFoodList.SelectedRows[0];
-                int foodId = Convert.ToInt32(row.Cells["ID"].Value);
-                OrdersForm frm = new OrdersForm(foodId);
-                frm.ShowDialog(this);
-            }
-        }
-
         private void dgvFoodList_CellMouseDown(object sender, DataGridViewCellMouseEventArgs e)
         {
             if (e.Button == MouseButtons.Right && e.RowIndex >= 0)
             {
                 dgvFoodList.ClearSelection();
                 dgvFoodList.Rows[e.RowIndex].Selected = true;
+            }
+        }
+
+        private void btnViewBills_Click(object sender, EventArgs e)
+        {
+            using (var f = new OrdersForm())
+            {
+                f.ShowDialog(this);
             }
         }
     }

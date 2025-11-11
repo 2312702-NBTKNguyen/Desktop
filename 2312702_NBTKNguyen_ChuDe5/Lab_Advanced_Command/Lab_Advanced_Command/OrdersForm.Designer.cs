@@ -36,13 +36,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnViewBills = new System.Windows.Forms.Button();
             this.dgvBills = new System.Windows.Forms.DataGridView();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Name = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TableID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Amount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Discount = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tax = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CheckoutDate = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.restaurantManagementDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.restaurantManagementDataSet = new Lab_Advanced_Command.RestaurantManagementDataSet();
             this.txtTotalAmount = new System.Windows.Forms.TextBox();
@@ -117,14 +110,6 @@
             // 
             this.dgvBills.AutoGenerateColumns = false;
             this.dgvBills.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvBills.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Name,
-            this.TableID,
-            this.Amount,
-            this.Discount,
-            this.Tax,
-            this.CheckoutDate});
             this.dgvBills.DataSource = this.restaurantManagementDataSetBindingSource;
             this.dgvBills.Location = new System.Drawing.Point(0, 108);
             this.dgvBills.MultiSelect = false;
@@ -134,55 +119,6 @@
             this.dgvBills.Size = new System.Drawing.Size(926, 342);
             this.dgvBills.TabIndex = 18;
             this.dgvBills.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvBills_CellDoubleClick);
-            // 
-            // ID
-            // 
-            this.ID.HeaderText = "ID";
-            this.ID.MinimumWidth = 6;
-            this.ID.Name = "ID";
-            this.ID.Width = 125;
-            // 
-            // Name
-            // 
-            this.Name.HeaderText = "Name";
-            this.Name.MinimumWidth = 6;
-            this.Name.Name = "Name";
-            this.Name.Width = 125;
-            // 
-            // TableID
-            // 
-            this.TableID.HeaderText = "TableID";
-            this.TableID.MinimumWidth = 6;
-            this.TableID.Name = "TableID";
-            this.TableID.Width = 125;
-            // 
-            // Amount
-            // 
-            this.Amount.HeaderText = "Amount";
-            this.Amount.MinimumWidth = 6;
-            this.Amount.Name = "Amount";
-            this.Amount.Width = 125;
-            // 
-            // Discount
-            // 
-            this.Discount.HeaderText = "Discount";
-            this.Discount.MinimumWidth = 6;
-            this.Discount.Name = "Discount";
-            this.Discount.Width = 125;
-            // 
-            // Tax
-            // 
-            this.Tax.HeaderText = "Tax";
-            this.Tax.MinimumWidth = 6;
-            this.Tax.Name = "Tax";
-            this.Tax.Width = 125;
-            // 
-            // CheckoutDate
-            // 
-            this.CheckoutDate.HeaderText = "CheckoutDate";
-            this.CheckoutDate.MinimumWidth = 6;
-            this.CheckoutDate.Name = "CheckoutDate";
-            this.CheckoutDate.Width = 125;
             // 
             // restaurantManagementDataSetBindingSource
             // 
@@ -266,6 +202,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.dtpTo);
             this.Controls.Add(this.dtpFrom);
+            this.Name = "OrdersForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Orders";
             ((System.ComponentModel.ISupportInitialize)(this.dgvBills)).EndInit();
@@ -291,13 +228,6 @@
         private System.Windows.Forms.TextBox txtTotalDiscount;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtRevenue;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Name;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TableID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Amount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Discount;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tax;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CheckoutDate;
         private System.Windows.Forms.BindingSource restaurantManagementDataSetBindingSource;
         private RestaurantManagementDataSet restaurantManagementDataSet;
     }

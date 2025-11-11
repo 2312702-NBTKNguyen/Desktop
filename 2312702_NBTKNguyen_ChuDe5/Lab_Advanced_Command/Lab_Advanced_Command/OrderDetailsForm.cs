@@ -37,6 +37,7 @@ namespace Lab_Advanced_Command
                 DataTable dtDetails = new DataTable();
                 conn.Open();
                 adapter.Fill(dtDetails);
+                dgvDetails.AutoGenerateColumns = true;
                 dgvDetails.DataSource = dtDetails;
                 decimal total = 0;
                 foreach (DataRow row in dtDetails.Rows)
