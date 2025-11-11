@@ -9,8 +9,7 @@ namespace DataAccess
 {
     public class Utilities
     {
-        private static string StrName = "ConnectionStringName";
-        public static string ConnectionString = ConfigurationManager.ConnectionStrings[StrName].ConnectionString;
+        public static string ConnectionString = ConfigurationManager.ConnectionStrings["RestaurantManagement"].ConnectionString;
 
         public static string Food_GetAll = "Food_GetAll";
         public static string Food_InsertUpdateDelete = "Food_InsertUpdateDelete";

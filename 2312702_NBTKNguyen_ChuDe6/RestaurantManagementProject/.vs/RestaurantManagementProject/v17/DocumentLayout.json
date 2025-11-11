@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{22FFF870-1EAD-4246-B503-DEF6543373F9}|DataAccess\\DataAccess.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude6\\restaurantmanagementproject\\dataaccess\\categoryda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FFF870-1EAD-4246-B503-DEF6543373F9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\categoryda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22FFF870-1EAD-4246-B503-DEF6543373F9}|DataAccess\\DataAccess.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude6\\restaurantmanagementproject\\dataaccess\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22FFF870-1EAD-4246-B503-DEF6543373F9}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude6\\restaurantmanagementproject\\restaurantmanagementproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|solutionrelative:restaurantmanagementproject\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude6\\restaurantmanagementproject\\restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|solutionrelative:restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude6\\restaurantmanagementproject\\restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BF53613D-528A-4B46-B57E-CA89C8393C07}|RestaurantManagementProject\\RestaurantManagementProject.csproj|solutionrelative:restaurantmanagementproject\\frmfood.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +42,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": ".gitignore",
-              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\.gitignore",
-              "RelativeDocumentMoniker": ".gitignore",
-              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\.gitignore",
-              "RelativeToolTip": ".gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-11-07T09:26:02.791Z",
+              "DocumentIndex": 0,
+              "Title": "CategoryDA.cs",
+              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\DataAccess\\CategoryDA.cs",
+              "RelativeDocumentMoniker": "DataAccess\\CategoryDA.cs",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\DataAccess\\CategoryDA.cs",
+              "RelativeToolTip": "DataAccess\\CategoryDA.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:17:34.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\DataAccess\\Utilities.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Utilities.cs",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\DataAccess\\Utilities.cs",
+              "RelativeToolTip": "DataAccess\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T07:10:58.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\RestaurantManagementProject\\App.config",
+              "RelativeDocumentMoniker": "RestaurantManagementProject\\App.config",
+              "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\RestaurantManagementProject\\App.config",
+              "RelativeToolTip": "RestaurantManagementProject\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-11-11T07:11:57.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "frmFood.cs",
               "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\RestaurantManagementProject\\frmFood.cs",
               "RelativeDocumentMoniker": "RestaurantManagementProject\\frmFood.cs",
@@ -60,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "frmFood.cs [Design]",
               "DocumentMoniker": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe6\\RestaurantManagementProject\\RestaurantManagementProject\\frmFood.cs",
               "RelativeDocumentMoniker": "RestaurantManagementProject\\frmFood.cs",

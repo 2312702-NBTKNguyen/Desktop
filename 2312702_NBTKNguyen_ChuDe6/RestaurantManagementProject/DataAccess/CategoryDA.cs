@@ -8,23 +8,16 @@ using System.Threading.Tasks;
 
 namespace DataAccess
 {
-    // Lớp quản lý Category: DA = DataAccess
     public class CategoryDA
     {
-        // Phương thức lấy hết dữ liệu theo thủ tục Food_GetAll
         public List<Category> GetAll()
         {
-            // Khai báo đối tượng SqlConnection và mở kết nối
-            // Đối tượng SqlConnection truyền vào chuỗi kết nối trong App.config
             SqlConnection sqlConn = new SqlConnection(Utilities.ConnectionString);
             sqlConn.Open();
-
-            // Khai báo đối tượng SqlCommand có kiểu xử lý là StoredProcedure
             SqlCommand command = sqlConn.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = Utilities.Category_GetAll;
 
-            // Đọc dữ liệu, lưu vào danh sách đối tượng Category
             SqlDataReader reader = command.ExecuteReader();
             List<Category> list = new List<Category>();
 
@@ -37,26 +30,21 @@ namespace DataAccess
                 list.Add(category);
             }
 
-            // Đóng kết nối và trả về danh sách
             sqlConn.Close();
             return list;
         }
 
-        // Phương thức thêm, xóa, sửa theo thủ tục Category_InsertUpdateDelete
         public int Insert_Update_Delete(Category category, int action)
         {
-            // Khai báo đối tượng SqlConnection và mở kết nối
             SqlConnection sqlConn = new SqlConnection(Utilities.ConnectionString);
             sqlConn.Open();
 
-            // Khai báo đối tượng SqlCommand có kiểu xử lý là StoredProcedure
             SqlCommand command = sqlConn.CreateCommand();
             command.CommandType = CommandType.StoredProcedure;
             command.CommandText = Utilities.Category_InsertUpdateDelete;
 
-            // Thêm các tham số cho thủ tục; Các tham số này chính là các tham số có trong thủ tục
             SqlParameter IDPara = new SqlParameter("@ID", SqlDbType.Int);
-            IDPara.Direction = ParameterDirection.InputOutput; // Vừa vào vừa ra
+            IDPara.Direction = ParameterDirection.InputOutput;
             command.Parameters.Add(IDPara);
             command.Parameters["@ID"].Value = category.ID;
 
@@ -69,9 +57,8 @@ namespace DataAccess
             command.Parameters.Add("@Action", SqlDbType.Int);
             command.Parameters["@Action"].Value = action;
 
-            // Thực thi lệnh
             int result = command.ExecuteNonQuery();
-            if (result > 0) // Nếu thành công thì trả về ID đã thêm
+            if (result > 0)
                 return (int)command.Parameters["@ID"].Value;
 
             return 0;

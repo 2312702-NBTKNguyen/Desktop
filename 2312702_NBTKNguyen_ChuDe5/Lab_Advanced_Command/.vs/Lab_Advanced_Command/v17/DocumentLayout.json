@@ -11,15 +11,15 @@
       "RelativeMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\foodform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude5\\lab_advanced_command\\lab_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\lab_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\foodinfoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude5\\lab_advanced_command\\lab_advanced_command\\orderdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\lab_advanced_command\\orderdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\orderdetailsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude5\\lab_advanced_command\\lab_advanced_command\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\lab_advanced_command\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{132B0235-192C-4B5C-8C62-8667B9E8C595}|Lab_Advanced_Command\\Lab_Advanced_Command.csproj|solutionrelative:lab_advanced_command\\ordersform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -49,8 +49,7 @@
               "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\Lab_Advanced_Command\\OrderDetailsForm.cs [Design]",
               "RelativeToolTip": "Lab_Advanced_Command\\OrderDetailsForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T06:59:22.706Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-11T06:59:22.706Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "RelativeToolTip": "Lab_Advanced_Command\\FoodInfoForm.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAD4vy8AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T06:56:12.654Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T06:56:12.654Z"
             },
             {
               "$type": "Document",
@@ -74,8 +72,7 @@
               "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\Lab_Advanced_Command\\OrdersForm.cs [Design]",
               "RelativeToolTip": "Lab_Advanced_Command\\OrdersForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T06:54:20.879Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-11T06:54:20.879Z"
             },
             {
               "$type": "Document",
@@ -85,7 +82,7 @@
               "RelativeDocumentMoniker": "Lab_Advanced_Command\\FoodForm.cs",
               "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\Lab_Advanced_Command\\FoodForm.cs",
               "RelativeToolTip": "Lab_Advanced_Command\\FoodForm.cs",
-              "ViewState": "AgIAAJYAAAAAAAAAAIAwwKsAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAhwGgAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T06:50:31.91Z",
               "EditorCaption": ""
@@ -99,8 +96,7 @@
               "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe5\\Lab_Advanced_Command\\Lab_Advanced_Command\\FoodForm.cs [Design]",
               "RelativeToolTip": "Lab_Advanced_Command\\FoodForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T02:52:43.423Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-11T02:52:43.423Z"
             }
           ]
         }
