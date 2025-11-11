@@ -15,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{E4C57DBA-9B7A-4245-98CE-EFB2D80F2A64}|Lab_Basic_Command\\Lab_Basic_Command.csproj|solutionrelative:lab_basic_command\\categoryform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E4C57DBA-9B7A-4245-98CE-EFB2D80F2A64}|Lab_Basic_Command\\Lab_Basic_Command.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude4\\lab_basic_command\\lab_basic_command\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E4C57DBA-9B7A-4245-98CE-EFB2D80F2A64}|Lab_Basic_Command\\Lab_Basic_Command.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe4\\Lab_Basic_Command\\lab_basic_command\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E4C57DBA-9B7A-4245-98CE-EFB2D80F2A64}|Lab_Basic_Command\\Lab_Basic_Command.csproj|solutionrelative:lab_basic_command\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -50,8 +50,7 @@
               "RelativeToolTip": "Lab_Basic_Command\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:59:24.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T08:59:24.586Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "Lab_Basic_Command\\CategoryForm.cs",
               "ViewState": "AgIAAEYAAAAAAAAAAAASwFMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T01:16:18.954Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-06T01:16:18.954Z"
             },
             {
               "$type": "Document",
@@ -100,8 +98,7 @@
               "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe4\\Lab_Basic_Command\\Lab_Basic_Command\\CategoryForm.cs [Design]",
               "RelativeToolTip": "Lab_Basic_Command\\CategoryForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-06T01:10:41.757Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-10-06T01:10:41.757Z"
             }
           ]
         }

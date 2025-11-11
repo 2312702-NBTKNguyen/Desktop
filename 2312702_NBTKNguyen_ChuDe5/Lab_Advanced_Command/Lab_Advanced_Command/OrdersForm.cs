@@ -66,5 +66,10 @@ namespace Lab_Advanced_Command
                 detailsForm.ShowDialog();
             }
         }
+
+        private void OrdersForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

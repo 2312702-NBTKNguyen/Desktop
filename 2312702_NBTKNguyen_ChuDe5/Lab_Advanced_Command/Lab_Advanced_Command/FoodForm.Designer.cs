@@ -39,6 +39,7 @@
             this.tsmUpdateFood = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmViewBills = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnViewBills = new System.Windows.Forms.Button();
             this.txtSearchByName = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -47,7 +48,6 @@
             this.lblQuantity = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnViewBills = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvFoodList)).BeginInit();
             this.ctmFoodList.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -146,6 +146,17 @@
             this.panel1.Size = new System.Drawing.Size(1148, 67);
             this.panel1.TabIndex = 3;
             // 
+            // btnViewBills
+            // 
+            this.btnViewBills.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnViewBills.Location = new System.Drawing.Point(1011, 16);
+            this.btnViewBills.Name = "btnViewBills";
+            this.btnViewBills.Size = new System.Drawing.Size(125, 31);
+            this.btnViewBills.TabIndex = 15;
+            this.btnViewBills.Text = "Xem hóa đơn";
+            this.btnViewBills.UseVisualStyleBackColor = true;
+            this.btnViewBills.Click += new System.EventHandler(this.btnViewBills_Click);
+            // 
             // txtSearchByName
             // 
             this.txtSearchByName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -225,17 +236,6 @@
             this.label2.Size = new System.Drawing.Size(68, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "Có tất cả";
-            // 
-            // btnViewBills
-            // 
-            this.btnViewBills.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnViewBills.Location = new System.Drawing.Point(1011, 16);
-            this.btnViewBills.Name = "btnViewBills";
-            this.btnViewBills.Size = new System.Drawing.Size(125, 31);
-            this.btnViewBills.TabIndex = 15;
-            this.btnViewBills.Text = "Xem hóa đơn";
-            this.btnViewBills.UseVisualStyleBackColor = true;
-            this.btnViewBills.Click += new System.EventHandler(this.btnViewBills_Click);
             // 
             // FoodForm
             // 

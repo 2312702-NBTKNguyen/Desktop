@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|solutionrelative:lab07_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|d:\\assignments\\desktop\\2312702_nbtknguyen_chude7\\lab07_entity framework\\lab07_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\lab07_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{4456A212-8E9E-4C77-AE21-2B8AABFEB50B}|Lab07_Entity Framework\\Lab07_Entity Framework.csproj|solutionrelative:lab07_entity framework\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -50,8 +50,7 @@
               "ToolTip": "D:\\Assignments\\Desktop\\2312702_NBTKNguyen_ChuDe7\\Lab07_Entity Framework\\Lab07_Entity Framework\\MainForm.cs [Design]",
               "RelativeToolTip": "Lab07_Entity Framework\\MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T08:54:11.344Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-11-10T08:54:11.344Z"
             }
           ]
         }
